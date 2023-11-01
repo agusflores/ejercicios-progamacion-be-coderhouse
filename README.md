@@ -1,2 +1,16 @@
-# Ejercicios 
+# Ejercicios
+
 Este repositorio fue creado para ir subiendo los ejercicios extra del curso de Programacion Backend de Coderhouse
+
+# Primer ejercicio
+
+Se encuentra en el archivo "ejercicios/ejercicio01.js" y el enunciado es el siguiente:
+
+Realizar una clase 'ProductManager'
+
+1. Debe crearse desde su constructor con el elemento 'products' el cual sera un arreglo vacio.
+2. Cada producto que se gestione debe contener (title, description, price, thumbnail, code, stock).
+3. Debe contar con un metodo 'addProduct' el cual agregara un producto al arreglo. No se debe poder repetir el codigo, todos los campos son obligatorios y al agregarse debe crearse con un id autoincremental
+4. Debe contar con un metodo 'getProducts' que retorne el arreglo.
+5. Debe contar con un metodo 'getProductById' el cual debe buscar en el arreglo el id del producto pasado por parametro, en caso de no coincidir, se debe mostrar por consola 'Not Found'.
+
