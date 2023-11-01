@@ -66,12 +66,12 @@ const productoDos = {
 }
 
 const productoTres = {
-  title: 'Producto Dos',
-  description: 'Descripcion del producto dos',
-  price: 200,
+  title: 'Producto Tres',
+  description: 'Descripcion del producto tres',
+  price: 300,
   thumbnail:
     'https://cdn3.iconfinder.com/data/icons/education-209/64/bus-vehicle-transport-school-128.png',
-  code: '0002',
+  code: '0003',
 }
 
 productManager.addProduct(productoUno)
