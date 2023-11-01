@@ -43,8 +43,12 @@ class ProductManager {
   }
 }
 
+
+// Creo una instancia del productManager
 const productManager = new ProductManager()
 
+
+// Creo el primer producto a agregar en el productManager
 const productoUno = {
   title: 'Producto Uno',
   description: 'Descripcion del producto uno',
@@ -55,6 +59,7 @@ const productoUno = {
   stock: 10,
 }
 
+// Creo el segundo producto a agregar en el productManager
 const productoDos = {
   title: 'Producto Dos',
   description: 'Descripcion del producto dos',
@@ -65,6 +70,7 @@ const productoDos = {
   stock: 20,
 }
 
+// Creo el tercer producto a agregar en el productManager pero con una propiedad menos por lo tanto no lo debe agregar
 const productoTres = {
   title: 'Producto Tres',
   description: 'Descripcion del producto tres',
@@ -74,9 +80,13 @@ const productoTres = {
   code: '0003',
 }
 
+// Agrego los tres productos (solo dos se van a agregar)
+
 productManager.addProduct(productoUno)
 productManager.addProduct(productoDos)
 productManager.addProduct(productoTres)
+
+// Muestro por consola los datos
 
 console.log(productManager.getProducts())
 console.log(productManager.getProductById(1))
