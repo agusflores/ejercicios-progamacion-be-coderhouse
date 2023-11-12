@@ -14,3 +14,12 @@ Realizar una clase 'ProductManager'
 4. Debe contar con un metodo 'getProducts' que retorne el arreglo.
 5. Debe contar con un metodo 'getProductById' el cual debe buscar en el arreglo el id del producto pasado por parametro, en caso de no coincidir, se debe mostrar por consola 'Not Found'.
 
+# Segundo ejercicio
+
+Se encuentra en la carpeta "ejercicios/ejercicio02/" y el enunciado es el siguiente:
+
+Manejo de archivos.
+
+Realizar una clase 'ProductManager'. Esta debe tener funcionalidades para agregar, modificar, eliminar, obtener un producto y obtener todos los productos.
+
+
