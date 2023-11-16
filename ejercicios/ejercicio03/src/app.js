@@ -40,7 +40,6 @@ app.get('/products', (req, res) => {
   if (!limit || limit === undefined) {
     res.status(200).json(products)
   } else {
-    console.log(limit)
     const productsLimit = products.slice(0, limit)
     res.status(200).json(productsLimit)
   }
