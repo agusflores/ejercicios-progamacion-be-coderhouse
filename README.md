@@ -23,3 +23,15 @@ Manejo de archivos.
 Realizar una clase 'ProductManager'. Esta debe tener funcionalidades para agregar, modificar, eliminar, obtener un producto y obtener todos los productos.
 
 
+# Tercer ejercicio
+
+Se encuentra en la carpeta "ejercicios/ejercicio03/" y el enunciado es el siguiente: 
+
+Servidor con express.
+
+Desarrollar un servidor basado en express donde podamos hacer consultas a nuestro archivo de productos. 
+
+Generar endpoint para obtener todos los productos. 
+Generar endpoint para obtener un producto a partir de su id. 
+
+Agregar al endpoint general de productos la posibilidad de mandar por query params el limite de productos que quiero que me muestre. 
