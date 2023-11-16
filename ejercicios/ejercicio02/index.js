@@ -1,6 +1,6 @@
 import ProductManager from './manager/ProductManager.js'
 
-const productManager = new ProductManager()
+const productManager = new ProductManager('./files/products.json')
 
 const env = async () => {
   let products = await productManager.getProducts()
@@ -32,8 +32,6 @@ const env = async () => {
   )
 
   products = await productManager.deleteProduct(1)
-
-  
 }
 
 env()

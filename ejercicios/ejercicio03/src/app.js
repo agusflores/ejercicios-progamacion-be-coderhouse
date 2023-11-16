@@ -1,7 +1,9 @@
 import express from 'express'
-import ProductManager from '../manager/ProductManager.js'
+import ProductManager from '../../ejercicio02/manager/ProductManager.js'
 
-const productManager = new ProductManager()
+const productManager = new ProductManager(
+  '../../ejercicio02/files/products.json'
+)
 
 const PORT = 8080
 
